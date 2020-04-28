@@ -74,3 +74,26 @@ at C:\Users\Laptop\development\myFirstBlitzApp\node_modules\enhanced-resolve\lib
 [ info ] bundled successfully, waiting for typecheck results...
 [ ready ] compiled successfully - ready on http://localhost:3000```
 ````
+
+# Second try
+
+So I couldn't figure out what to do at this point so I'm just going to try again from scratch. This time I got ```added 1273 packages from 559 contributors and audited 20501 packages in 107.519s
+
+67 packages are looking for funding
+run `npm fund` for details
+
+found 0 vulnerabilities
+
+Dependencies successfully installed.
+Error: Failed running prettier
+at AppGenerator.<anonymous> (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/@blitzjs/cli/lib/src/generators/app.js:68:23)
+at Generator.next (<anonymous>)
+at fulfilled (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/tslib/tslib.js:110:62)
+
+```
+When I tried blitz start it opened up ok despite that error.  This time I'll try shutting down the terminal before doing the next steps.  Maybe something couldn't run correctly while blitz was already running?
+
+Added the prisma schema  file and ran the migrate.  This time when it asked for a name of the migration I just clicked enter without entering anything.  So far so good.
+
+blitz generate all project - seems to have worked ok.  However, navigating to /projects still gives the same error as the first time through.
+```
