@@ -88,12 +88,14 @@ Dependencies successfully installed.
 Error: Failed running prettier
 at AppGenerator.<anonymous> (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/@blitzjs/cli/lib/src/generators/app.js:68:23)
 at Generator.next (<anonymous>)
-at fulfilled (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/tslib/tslib.js:110:62)
+at fulfilled (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/tslib/tslib.js:110:62)```
+
+When I tried blitz start it opened up ok despite that error. This time I'll try shutting down the terminal before doing the next steps. Maybe something couldn't run correctly while blitz was already running?
+
+Added the prisma schema file and ran the migrate. This time when it asked for a name of the migration I just clicked enter without entering anything. So far so good.
+
+blitz generate all project - seems to have worked ok. However, navigating to /projects still gives the same error as the first time through.
 
 ```
-When I tried blitz start it opened up ok despite that error.  This time I'll try shutting down the terminal before doing the next steps.  Maybe something couldn't run correctly while blitz was already running?
 
-Added the prisma schema  file and ran the migrate.  This time when it asked for a name of the migration I just clicked enter without entering anything.  So far so good.
-
-blitz generate all project - seems to have worked ok.  However, navigating to /projects still gives the same error as the first time through.
 ```
