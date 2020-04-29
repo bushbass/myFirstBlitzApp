@@ -1,3 +1,7 @@
+# trying blitz on my windows 10 machine
+
+I'm going to try setting up blitz on my windows 10 machine because I really love the idea. I'm going to document anything that comes up as I go through it.
+
 # setting up your computer
 
 I thought when I looked at this a few days ago, in addition to requiring node it said postgres was required. Today it only says node. I decided to install postgres first. straightforward easy download from postgres site.
@@ -130,7 +134,8 @@ at AppGenerator.<anonymous> (C:/Users/Laptop/AppData/Roaming/npm/node_modules/bl
 at Generator.next (<anonymous>)
 at fulfilled (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/tslib/tslib.js:110:62)
 ```
-Started it anyway.  Looks good so far.  Home page opens fine.
+
+Started it anyway. Looks good so far. Home page opens fine.
 
 blitz db migrate seemed to work ok
 
