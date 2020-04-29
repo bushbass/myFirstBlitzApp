@@ -99,3 +99,41 @@ When I tried blitz start it opened up ok despite that error. This time I'll try 
 Added the prisma schema file and ran the migrate. This time when it asked for a name of the migration I just clicked enter without entering anything. So far so good.
 
 blitz generate all project - seems to have worked ok. However, navigating to /projects still gives the same error as the first time through.
+
+# Third try
+
+This time I started the user guide from scratch. I ran the global blitz install. It seemed to go much faster this time. However at the end of the install I got this error
+
+```
+- Retrieving the freshest of dependencies
+FetchError: invalid json response body at https://registry.npmjs.org/prettier reason: Unexpected end of JSON input at C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/node-fetch/lib/index.js:272:32
+```
+
+I'm going to unistall blitz altogether and try again. We'll still call this 3rd try since I didn't get very far this time. :)
+
+Ok, installed blitz globally and got a LOT of scary warning but it doesn't look like any errors.
+
+creating a new blitz app an got a prettier error again
+
+```
+added 1273 packages from 559 contributors and audited 20501 packages in 85.093s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Dependencies successfully installed.
+Error: Failed running prettier
+at AppGenerator.<anonymous> (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/@blitzjs/cli/lib/src/generators/app.js:68:23)
+at Generator.next (<anonymous>)
+at fulfilled (C:/Users/Laptop/AppData/Roaming/npm/node_modules/blitz/node_modules/tslib/tslib.js:110:62)
+```
+Started it anyway.  Looks good so far.  Home page opens fine.
+
+blitz db migrate seemed to work ok
+
+blitz generate all project seemed to run without errors
+
+blitz start ok but going to /projects still gets the same 'child proccess' error from before
